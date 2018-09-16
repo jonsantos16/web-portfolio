@@ -20,7 +20,7 @@
                 <nav role="navigation">
                     <div class="main-menu">
                         <ul class="navbar"   >
-                            <li><a href="#about">About Me</a></li>
+                            <li><a class="about" href="#about" value="#about">About Me</a></li>
                             <li><a href="#projects">Projects</a></li>
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#contact">Contact</a></li>
@@ -48,8 +48,9 @@
                         <div class="col-2">
                             <div class="text-about">
                                 <h2>About Me</h2>
-                                <p>Hi! My name is Jonathan and I'm a full-stack web developer. I'm a problem solver, someone who likes to figure out why things aren't working and fix them. I've been troubleshooting A/V-related technical issues for several years now and I'm trying my hand in web-related troubleshooting. I like to build things with others, and am a firm believer that in community!</p>
-                                <p>I started out by getting my feet wet in the frontend technologies, namely HTML and CSS, and as my interest grew, began to take on more concepts in Javascript, and then server-side web development.</p>
+                                <p>Hi! My name is Jonathan and I'm a full-stack web developer. I like to solve problems, to figure out why things aren't working and fix them. I've been troubleshooting A/V-related technical issues for several years now and I'm trying my hand in web-related troubleshooting. I also like to build things with others, and am a firm believer in community!</p>
+                                <p>I started out by getting my feet wet in the frontend technologies, namely HTML and CSS, and as my interest grew, I began to take on more concepts in Javascript, and then server-side web development. I'm currently furthering my learning by tackling React!</p>
+                                <p>Get in touch to know more about me!</p>
                             </div>
                         </div>
                         <div class="col-2">
@@ -63,7 +64,7 @@
             <section id="projects">
                 <div class="projects container">
                     <div class="section-heading">
-                        <h1>Latest Work</h1>
+                        <h1>My Projects</h1>
                     </div>
                     <div class="row">
                         <div class="col-2">
@@ -71,13 +72,13 @@
                                 <div class="img-wrapper">
                                     <img src="images/eureka.png">
                                     <div class="overlay">
-                                        <a href="https://idea-bank-capstone.herokuapp.com/" target="blank">Demo</a>
-                                        <a href="https://github.com/jonsantos16/idea-bank-node-capstone" target="blank">Code</a>
+                                        <a href="https://idea-bank-capstone.herokuapp.com/" target="_blank">Demo</a>
+                                        <a href="https://github.com/jonsantos16/idea-bank-node-capstone" target="_blank">Code</a>
                                     </div>
                                 </div>
                                 <figcaption>
-                                    <h4>Eureka!</h4>
-                                    <p>An idea-sharing platform where members can share ideas with other members of the community. For those who need those "Eureka!" moments.</p>
+                                    <h4>Eureka! - Idea Sharing App</h4>
+                                    <p>Implemented with Node.js, Express.js, MongoDB, Mongoose, Mocha, Chai, BCrypt, RESTful API, HTML5, CSS3, JavaScript, and jQuery.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -92,7 +93,22 @@
                                 </div>
                                 <figcaption>
                                     <h4>HikeFinder</h4>
-                                    <p>The Hike Finder app is designed to provide you with different options of hiking trails and weather conditions for the locations you search for.</p>
+                                    <p>Implemented using HTML5, CSS3, Javascript, jQuery, Google Earth API, Hiking Project API, and WeatherBit API.</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-2">
+                            <figure class="">
+                                <div class="img-wrapper">
+                                    <img src="images/quiz-app.png">
+                                    <div class="overlay">
+                                        <a href="https://jonsantos16.github.io/anatomy-quiz/" target="blank">Demo</a>
+                                        <a href="https://github.com/jonsantos16/anatomy-quiz" target="blank">Code</a>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                    <h4>Anatomy Quiz App</h4>
+                                    <p>An online quiz to see how well you know yourself! Implemented with HTML, CSS, JavaScript, and jQuery.</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -190,6 +206,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
         <script src="app.js"></script>
     </body>
 </html>

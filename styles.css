@@ -139,6 +139,10 @@ nav a {
     border-radius: 0;
 }
 
+#hero-area a:hover {
+    background: #007acc
+}
+
 .btn:hover {
     cursor: pointer;
 }
@@ -317,10 +321,11 @@ figure img {
 
 /* Contact section */
 #contact {
-    background-color: #b38600;
+    background-color: #007acc;
     padding-top: 50px;
     padding-bottom: 60px;
     text-align: center;
+    color: white;
 }
 
 #contact h2 {
@@ -342,6 +347,10 @@ figure img {
     padding: 5px;
 }
 
+#contact a:hover {
+    color: brown;
+}
+
 /* Footer */
 .copyright {
     font-size: 20px;
@@ -359,4 +368,6 @@ footer li {
 footer {
     padding-top: 20px;
     padding-bottom: 55px;
+    color: #555;
 }
+
