@@ -140,7 +140,7 @@ nav a {
 }
 
 #hero-area a:hover {
-    background: #007acc
+    background: #007acc;
 }
 
 .btn:hover {
@@ -158,6 +158,11 @@ nav a {
     image-orientation: from-image;
     border-radius: 100px;
 }
+
+#about .profile {
+    text-align: center;
+    /* margin: 0 auto; */
+  }
 
 #about p {
     color: #727272;
@@ -370,4 +375,9 @@ footer {
     padding-bottom: 55px;
     color: #555;
 }
+
+/* #footer {
+    background-color: #007acc;
+    color: white;
+} */
 
