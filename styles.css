@@ -120,13 +120,14 @@ nav a {
     /* border: 1px solid gray; */
     background-color: rgb(242, 242, 242, 0.4);
     border-radius: 500px;
+    margin-bottom: 8px;
 }
 
 #hero-area h2 {
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
-    margin-top: 10px;
+    margin-top: 18px;
 }
 
 #hero-area .btn {
