@@ -75,13 +75,35 @@
 
   }
 
-  @media only screen and (max-width: 740px) {
+  @media only screen and (max-width: 880px) {
     #about img {
       /* text-align: center; */
-      height: 435px;
-      width: 304px;
+      height: 390px;
+      width: auto;
     }
   }
+
+  @media only screen and (max-width: 790px) {
+    #about img {
+      /* text-align: center; */
+      height: 410px;
+      width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .profile {
+      horizontal-align: center;
+    }
+  }
+
+  /* @media only screen and (max-width: 700px) {
+    #about img {
+      /* text-align: center; */
+      /* height: 465px;
+      width: auto;
+    }
+  } */
 
   @media only screen and (max-width: 640px) {
     footer li {

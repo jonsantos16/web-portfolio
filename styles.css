@@ -105,7 +105,7 @@ nav a {
 
 /* Hero Area */
 #hero-area {
-    background: url('images/jerusalem-walls-1.JPG');
+    background: url('images/jerusalem-walls-2.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding: 230px 0;
@@ -119,15 +119,17 @@ nav a {
     line-height: 70px;
     /* border: 1px solid gray; */
     background-color: rgb(242, 242, 242, 0.4);
-    border-radius: 500px;
+    border-radius: 15px;
     margin-bottom: 8px;
+    display: block;
+    width: auto;
 }
 
 #hero-area h2 {
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
-    margin-top: 18px;
+    margin-top: 20px;
 }
 
 #hero-area .btn {
@@ -139,7 +141,7 @@ nav a {
     font-size: 16px;
     font-size: 13px;
     line-height: 1em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: normal;
     border-radius: 0;
 }
@@ -158,10 +160,10 @@ nav a {
 }
 
 #about img {
-    height: 500px;
-    width: 350px;
+    height: 380px;
+    width: auto;
     image-orientation: from-image;
-    border-radius: 100px;
+    border-radius: 15px;
 }
 
 #about .profile {
@@ -180,7 +182,7 @@ nav a {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 30px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 /* Projects section */
@@ -199,7 +201,7 @@ nav a {
     line-height: 1.1;
     font-weight: 300;
     color: #333;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-bottom: 20px;
     padding-bottom: 20px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -303,9 +305,38 @@ figure img {
     height: 100%;
 }
 
+.project-skills {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+}
+
+.project-skills li {
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 7px;
+    border: 2px solid #ac7339;
+}
+
 /* Skills section */
 #skills {
     padding: 80px 0;
+}
+
+.skills-bucket img {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1rem;
+    height: 90px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.skills-bucket {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .icon i {
@@ -340,7 +371,7 @@ figure img {
 
 #contact h2 {
     font-weight: 600;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: 'Roboto Condensed', sans-serif;
     margin-bottom: 15px;
 }
@@ -358,7 +389,7 @@ figure img {
 }
 
 #contact a:hover {
-    color: brown;
+    color: #ac7339;
 }
 
 /* Footer */
