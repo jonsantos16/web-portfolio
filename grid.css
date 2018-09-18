@@ -84,26 +84,22 @@
   }
 
   @media only screen and (max-width: 790px) {
-    #about img {
-      /* text-align: center; */
-      height: 410px;
-      width: auto;
+    .profile {
+      padding: 10px 0;
     }
   }
 
   @media only screen and (max-width: 750px) {
     .profile {
-      horizontal-align: center;
+      padding: 20px 0;
     }
   }
 
-  /* @media only screen and (max-width: 700px) {
-    #about img {
-      /* text-align: center; */
-      /* height: 465px;
-      width: auto;
+  @media only screen and (max-width: 700px) {
+    .profile {
+      padding: 25px 0;
     }
-  } */
+  }
 
   @media only screen and (max-width: 640px) {
     footer li {
@@ -126,12 +122,6 @@
     #about .profile {
       text-align: center;
       /* margin: 0 auto; */
-    }
-
-    #about img {
-      /* text-align: center; */
-      height: 417px;
-      width: 292px;
     }
 
     #hero-area h1 {
@@ -182,9 +172,8 @@
     }
 
     #about img {
-      /* text-align: center; */
-      height: 357px;
-      width: 250px;
+      width: 100%;
+      height: auto;
     }
 
     #hero-area h1 {
