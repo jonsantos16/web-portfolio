@@ -401,8 +401,8 @@ figure img {
 }
 
 footer li {
-    display: inline-block;
-    font-size: 24px;
+    display: inline;
+    font-size: 40px;
     float: right;
     padding: 0 10px;
 }
@@ -411,6 +411,11 @@ footer {
     padding-top: 20px;
     padding-bottom: 55px;
     color: #555;
+}
+
+footer ul {
+    /* font-size: 100px; */
+    display: inline;
 }
 
 /* #footer {
